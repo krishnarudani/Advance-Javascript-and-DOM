@@ -1,3 +1,6 @@
 document.querySelector(".set").addEventListener("click",function(){
-  alert("i got clicked!");
+
+  var audio=new audio("sounds/tom-1.mp3");
+  audio.play();
+
 });
