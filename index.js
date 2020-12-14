@@ -32,26 +32,32 @@ function makesound(key) {
       break;
 
     case "a":
+      a.currentTime = 0;
       a.play();
       break;
 
     case "d":
+      d.currentTime = 0;
       d.play();
       break;
 
     case "s":
+      s.currentTime = 0;
       s.play();
       break;
 
     case "j":
+      j.currentTime = 0;
       j.play();
       break;
 
     case "k":
+      k.currentTime = 0;
       k.play();
       break;
 
     case "l":
+      l.currentTime = 0;
       l.play();
       break;
 
